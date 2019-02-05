@@ -1,0 +1,27 @@
+"15760 Albion:Albion:1992 QB1" "Sol" {
+
+	Class "asteroid" 
+	Texture "tethys.*" 
+	Color   [0.85 078 0.88] 
+	BlendTexture true 
+	Radius  530
+	
+
+	EllipticalOrbit {
+		Epoch        2458000.5   # 4 September 2017
+		Period           288.93 
+		SemiMajorAxis     43.704       
+		Eccentricity       0.0655
+		Inclination       2.1877      
+		AscendingNode     359.44
+		ArgOfPericenter  0.6029      
+		MeanAnomaly      31.005 
+   	} 
+
+	Albedo 0.2 #unconfirmed
+
+	UniformRotation
+	{
+	Period     15.00   
+	}
+}

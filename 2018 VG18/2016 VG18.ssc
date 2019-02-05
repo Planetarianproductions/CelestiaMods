@@ -1,0 +1,27 @@
+"2018 VG18:Farout" "Sol" {
+
+	Class "asteroid" 
+	Texture "amalthea.*" 
+	Color   [0.65 0.58 0.68] 
+	BlendTexture true 
+	Radius  530
+	
+
+	EllipticalOrbit {
+		Epoch        2458447.5   # 25 November 2018 
+		Period           929 #In years 
+		SemiMajorAxis     95.2       
+		Eccentricity       0.772
+		Inclination       31.7      
+		AscendingNode     247.4
+		ArgOfPericenter  32.9      
+		MeanAnomaly      73.77
+   	} 
+
+	Albedo 0.2 #unconfirmed
+
+	UniformRotation
+	{
+	Period     12.65 #random   
+	}
+}
